@@ -15,7 +15,7 @@ The verification environment is architected to ensure highly reliable data trans
 * **Pipelined Protocol Translation:** AHB Driver equipped with mathematical address-calculators to correctly handle AMBA pipelined Address and Data phases (`Htrans` / `Hready` tracking).
 * **Reactive Slave Responders:** APB Agent is architected as a fully reactive slave, utilizing a continuously looping dummy sequence to provide randomized Read responses on demand.
 * **Configuration-Driven Topology:** Highly scalable environment utilizing `uvm_config_db` and `env_config` objects to dynamically switch agents between `UVM_ACTIVE` and `UVM_PASSIVE` modes.
-* **Functional Coverage & SVA:** Integrated covergroups tracking AHB burst types, read/write cross-coverage, peripheral slave selection, and SystemVerilog Assertions (SVA) for strict protocol compliance.
+* **Functional Coverage :** Integrated covergroups tracking AHB burst types, read/write cross-coverage, peripheral slave selection.
 
 ---
 
